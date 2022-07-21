@@ -2,7 +2,7 @@
 package ec.edu.intsuperior.modelo;
 
 
-public class Empleado {
+public class Empleado extends Persona {
 
     private double sueldo;
 
