@@ -22,7 +22,7 @@ public class Persona {
         this.nombre = nombre;
     }
     
-    public void setApellido(String edad) {
+    public void setApellido(String apellido) {
         this.apellido = apellido;
     }
     
@@ -30,7 +30,7 @@ public class Persona {
         this.edad = edad;
     }
     
-    public void setCi(String edad) {
+    public void setCi(String ci) {
         this.ci = ci;
     }
 

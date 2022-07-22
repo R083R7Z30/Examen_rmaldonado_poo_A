@@ -4,21 +4,20 @@ package ec.edu.intsuperior.modelo;
 
 public class Empleado extends Persona {
 
-    private double sueldo;
+    private float sueldo;
 
-    public Empleado() {
+    public void CalcularSalario() {
     }
 
-    public Empleado(double sueldo) {
+    public Empleado(float sueldo) {
         this.sueldo = sueldo;
     }
 
-    public double getSueldo() {
+    public void setSueldo(float sueldo) {
+        this.sueldo = sueldo;
+    }
+
+    public float getSueldo() {
         return sueldo;
     }
-
-    public void setSueldo(double sueldo) {
-        this.sueldo = sueldo;
-    }
-
 }
